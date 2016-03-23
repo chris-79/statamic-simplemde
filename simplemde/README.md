@@ -19,7 +19,7 @@ There are 3 parameters for configuration:
   
   **_Default:_** 300
 * `preserve_characters`  
-  Remove or keep certain special characters, as entered. In my experience, "Smart" quotes tend to make RSS/Atom feeds become invalid, so this give you the option to convert them.  
+  Remove or keep certain special characters, as entered. In my experience, "Smart" quotes tend to make RSS/Atom feeds become invalid, so this gives you the option to convert them.  
   
   Changed characters: `‘`, `’`, `“`, `”`, `–`, `—`, and `…`
 
@@ -30,7 +30,7 @@ There are 3 parameters for configuration:
 * `relative_urls`  
   Removes all references to the current domain name in links and images.
 
-  For example, if you are running Stamic on partyonwayne.com, a markdown link to  
+  For example, if you are running Statamic on partyonwayne.com, a markdown link to  
   `[Sweet website, bro!](https://partyonwayne.com/my/cool/page.html)`  
   will become  
   `[Sweet website, bro!](/my/cool/page.html)`.
