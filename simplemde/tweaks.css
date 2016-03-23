@@ -1,0 +1,7 @@
+/* Fixes fullscreen SimpleMDE editor */
+.editor-toolbar.fullscreen {
+  top: 3.8em !important;
+}
+.editor-preview-side, .CodeMirror-fullscreen {
+  margin-top: 3.8em;
+}
